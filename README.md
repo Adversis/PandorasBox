@@ -38,17 +38,18 @@ The example worlist is an exact copy of: https://github.com/first20hours/google-
 
 ## Usage:
 
-    usage: pandoras_box.py [-h] -l TARGETLIST [-w WORDLIST] [-t THREADS]
-                       [-s WEBHOOK_URL] [-c LOCKOUT_CHECK]
+    usage: pandoras_box.py [-h] -l TARGETLIST [-w WORDLIST] [-v] [-t THREADS]
+                           [-s WEBHOOK_URL] [-c LOCKOUT_CHECK]
 
     optional arguments:
       -h, --help        show this help message and exit
-      -l TARGETLIST     Provide a list of targets to chack Box accounts for.
+      -l TARGETLIST     Provide a list of targets to check Box accounts for.
       -w WORDLIST       Provide a wordlist for the file/folder bruteforce.
+      -v                Output all webrequests to logfile. Caution size!
       -t THREADS        Number of threads.
       -s WEBHOOK_URL    Slack Web Hook URL
       -c LOCKOUT_CHECK  URL of known shared Box account to verify you are not
-                    being blocked.
+                        being blocked.
                     
   
   
