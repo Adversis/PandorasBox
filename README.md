@@ -30,6 +30,8 @@ This tool can be used to enumerate for companies that currently have a Box enter
 
   `-t` switch, you can set the number of threads you want to use. Be careful here, Box does enforce rate limiting and your IP may get blocked. 
 
+  `-v` : Verbose logging
+  
   `-s` : By supplying a Slack WebHook URL, you can send results to Slack.
 
   `-c` : You can give the tool a known shared Box file. This allows the tool to verify access to Box, if access to the known Box is denied, then Box is rate limiting your requests and you will need to change you IP. The defaul Box belongs to Dell and was found by a Google Dork. If this Box file gets taken down, a new Box file will have to be supplied. A work around would be to simply put google.com here. 
