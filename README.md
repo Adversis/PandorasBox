@@ -2,7 +2,7 @@
 
 #### Pandoras Box is a tool to find Enterprise Box accounts and enumerate for shared files and folders
 
-#### Writeup can be found here: [adversis.io](https://adversis.io)
+#### Writeup can be found here: [adversis.io](https://adversis.io/research/pandorasbox)
 
 #### [@adversis_io](https://twitter.com/adversis_io)
  
@@ -11,6 +11,7 @@ Non-Standard Python Libraries:
 
 * requests
 * argparse
+* xmltodict
 
 Created with Python 3.6
 
